@@ -33,8 +33,8 @@ namespace ofxGooglePolyline {
             lng += dlng;
             
             ofVec2f point;
-            point.x = lat * (float)1e-5;
-            point.y = lng * (float)1e-5;
+            point.y = lat * (float)1e-5;
+            point.x = lng * (float)1e-5;
             points->push_back(point);
         }
         
